@@ -7,6 +7,6 @@ flask-cors
 itsdangerous==2.0.1
 Jinja2==3.0.3
 MarkupSafe==2.1.1
-SQLAlchemy==2.0.27
 Werkzeug==2.2.2
+psycopg[binary]
 gunicorn==20.1.0
