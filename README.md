@@ -4,7 +4,11 @@
 
 This project aims to create a dynamic dating website, guiding users from the initial registration process to the final, exciting encounter. Our platform is enriched with features such as video chat to provide a more interactive and engaging user experience.
 
-- Under the hood, Matcha is powered by a robust tech stack. We've leveraged Flask, a lightweight yet powerful Python web framework, for our backend. In an effort to optimize database interactions and maintain full control over our queries, we've chosen not to use an Object-Relational Mapping (ORM) system. Instead, we've written all SQL queries manually using Psycopg, a popular PostgreSQL adapter for Python. This approach allows us to handle user requests efficiently and securely, while ensuring maximum flexibility and performance in our database operations.
+### Under the hood, Matcha is powered by a robust tech stack
+
+- We've leveraged Flask, a lightweight yet powerful Python web framework, for our backend. In an effort to optimize database interactions and maintain full control over our queries, we've chosen not to use an Object-Relational Mapping (ORM) system. Instead, we've written all SQL queries manually using Psycopg, a popular PostgreSQL adapter for Python. This approach allows us to handle user requests efficiently and securely, while ensuring maximum flexibility and performance in our database operations.
+
+- To enable real-time data transfer, we've also implemented WebSockets. This technology allows us to establish a two-way communication channel between the client and the server, ensuring instant data transfer and enhancing the responsiveness of our application.
 
 - On the frontend, we've chosen React with TypeScript to build a responsive, user-friendly interface. To enhance the visual appeal and usability of our application, we've utilized Chakra UI, a simple, modular and accessible component library that provides a range of customizable UI elements. TypeScript provides a static type system, enhancing code quality and maintainability.
 
